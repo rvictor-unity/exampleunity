@@ -17,6 +17,7 @@ public class CloudBuildHelper : MonoBehaviour
 {
     public static void PreExportDevelopment(UnityEngine.CloudBuild.BuildManifestObject manifest)
     {
+        Debug.Log("executed dev pre-export");
     }
 
     public static void PreExportEnterprise(UnityEngine.CloudBuild.BuildManifestObject manifest)
